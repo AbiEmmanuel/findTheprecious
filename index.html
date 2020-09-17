@@ -22,36 +22,38 @@
         <input type="radio" name="fancy" value="hearts" id="hearts" />
         <input type="radio" name="fancy" value="spades" id="spades" />
         <input type="radio" name="fancy" value="diamonds" id="diamonds" />			
-        <label for="clubs">&#9827; Dangerous fellow try to destroy the ring <p>Orcs, Goblins, Balrogs,protect your master Sauron !</p></label><label for="hearts">&#9829; Hearts</label><label for="spades">&#9824; Spades</label><label for="diamonds">&#9830; Diamonds</label>
+        <label for="clubs">&#9827; Dangerous fellow try to destroy the ring Orcs, <br/>Goblins, Balrogs,protect your master Sauron !</label><label for="hearts">&#9829; Hearts</label><label for="spades">&#9824; Spades</label><label for="diamonds">&#9830; Diamonds</label>
 
         <div class="keys">Felloms wanted dead (or alive if you want to eat them later)</div>
 </form>
+<section>
+    <div class="wrapper">
+        <div><img src="#" alt=""></div>
+        <div><img src="#" alt=""></div>
+        <div><img src="#" alt=""></div>
+    </div>
 
-<div class="wrapper">
-    <div><img src="#" alt=""></div>
-    <div><img src="#" alt=""></div>
-    <div><img src="#" alt=""></div>
-</div>
-
-<form action="/ma-page-de-traitement" method="post">
-    <div>Contact us</div>
-    <div>
-        <label for="name">Nom :</label>
-        <input type="text" id="name" name="user_name">
-    </div>
-    <div>
-        <label for="mail">e-mail :</label>
-        <input type="email" id="mail" name="user_mail">
-    </div>
-    <div>
-        <label for="msg">Message :</label>
-        <textarea id="msg" name="user_message"></textarea>
-    </div>
-    <div class="button">
-        <button type="submit">send</button>
-    </div>
-</form>
-
+    <form action="/ma-page-de-traitement" method="post">
+        <div>
+            Contact us
+        </div>
+        <div>
+           <label for="name">Nom :</label>
+           <input type="text" id="name" name="user_name">
+       </div>
+       <div>
+           <label for="mail">e-mail :</label>
+           <input type="email" id="mail" name="user_mail" placeholder="mail">
+       </div>
+       <div>
+           <label for="msg">Message :</label>
+           <textarea id="msg" name="user_message"></textarea>
+       </div>
+       <div class="button">
+           <button type="submit">send</button>
+       </div>
+   </form>
+</section>
 <footer>
     <div>About us</div>
     <div>Fellows</div>
